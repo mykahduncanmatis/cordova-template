@@ -24,6 +24,7 @@ function onDeviceReady() {
             $("#takePhoto").after("<img src='"+ myNewImage + "'>")
         }, onError);
     }
+    
 
     function onError(message){
         alert("Photo not taken because" + message)
